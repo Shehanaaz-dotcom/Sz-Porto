@@ -1,0 +1,56 @@
+h1{
+    text-align:center;
+    color:white;
+}
+h5{
+    color:white;
+}
+h3{
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin-bottom:30px;
+}
+
+p{
+    color:white;
+    text-align:center;
+        text-align:center;
+    padding:10px;
+}
+
+
+
+.skills1{
+  
+	display:flex;
+ 
+
+}
+
+.im1{
+    margin-right:50px;
+}
+
+
+
+
+img{
+	height:70px;
+	width:70px;
+	border-radius:40px;
+  
+}
+
+.column2{
+    width:50%;
+    border:2px solid white;
+}
+.column3{
+    width:50%;
+     border:2px solid white;
+}
+
+
+
+
