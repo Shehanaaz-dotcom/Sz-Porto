@@ -3,9 +3,15 @@ import { createRoot } from 'react-dom/client'
 
 import './index.css'
 import App from './App.jsx'
+ import { BrowserRouter , Routes, Route } from "react"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <BrowserRouter basename="/Sz-Porto/">
+    <Routes>
+    <Route path ="*" element= {  <App />}/>
+      </Routes>
+    </BrowserRouter>
+  
   </StrictMode>,
 )
